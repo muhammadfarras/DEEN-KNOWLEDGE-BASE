@@ -1,0 +1,48 @@
+{
+    "book_name":"Mulia dengan Manhaj Salaf",
+    "chapter_flag":"Bab 1",
+    "chapter":"Pengertian Manjah Salaf dan Salafiyah Menurut Bahasa, Istilah, dan Zaman",
+    "author":"Yazid bin Abdul Qadir Jawas",
+    "publisher":"Pustaka At-Taqwa",
+    "edition":"22",
+    "ISBN":"978-979-1661-3-3",
+    "documents": 
+    [
+        {
+            "chapter_flag":"A",
+            "chapter":"Definisi Manhaj",
+            "data" :[
+                {
+                    "text":"Manhaj menurut bahasa artinya jalan yang jelas dan tenang. Allah Ta'la berfirman,",
+                    "footnote":"",
+                    "page":13
+                },
+                {
+                    "text":" لِكُلٍّ جَعَلْنَا مِنْكُمْ شِرْعَةً وَّمِنْهَاجًا ۗ",
+                    "footnote":"",
+                    "page":13
+                },
+                {
+                    "text":"\"...Untuk setiap umat diantara kamu, kami berikan aturan dan jalan yang terang...\" (QS. Al-Maa-idah: 48)",
+                    "footnote":"",
+                    "page":13
+                },
+                {
+                    "text":"Shahabat 'Abdullah bin 'Abbas _radiallahu anhuma_ menafsirkan, \"Maksudnya, jalan dan syari'at.\"",
+                    "footnote":"Tafsir Ibni Katsir (III/129) _tahqiq_ Sami bin Muhammad as-Salamah, cet. IV Daar Tahybah, th. 1428 H.",
+                    "page":13
+                },
+                {
+                    "text":"Sedangkan menurut istilah, manhaj ialah kaidah-kaidah dan ketentuan-ketentuan yang digunakan bagi setiap pembelajaran ilmiyyah, seperti kaidah-kaidah bahasa Arab, ushul 'Aqidah, ushul fiqih, dan ushul tafsir dimana dengan ilmu-ilmu ini pembelajaran dalam Islam beserta pokok-pokoknya menjadi teratur dan benar.",
+                    "footnote":"Lihat _al-Mukhtasharul Hatsiits fii Bayaani Ushuuli Manhajis Salaf Ash-haabil Hadiitgs (hlm. 15)",
+                    "page":13
+                },
+                {
+                    "text":"**Manhaj** artinya jalan atau metode. Dan manhaj yang benar adalah jalan hidup yang lurus dan terang dalam beragama menurut pemahaman para Shahabat. Syaikh DR. Shalih bin Fauzan _hafidzahullah_ menjelaskan perbedaan antara 'aqidah dan manhaj, beliau berkata, \"_Manhaj_ lebih umum daripada _'aqidah_, Manhaj diterapkan dalam 'aqidah, suluk, akhlak, muamalah dan dalam semua kehidupan seorang Muslim. Setiap langkah yang dilakukan seorang Muslim dikatakan manhaj. Adapun yang dimaksud dengan 'aqidah adalah pokok iman, makna dua kalimat syahadat, dan konsekuensinya. Inilah 'aqidah.\"",
+                    "footnote":"_Al-Ajwibah al-Mufidah 'an As-ilati Manaahijl jadiidah_ (hlm. 123) disusun oleh Jamal bin Furaihan al-Haritsi, cet. III Daarun Manhaj, th. 1424 H.",
+                    "page":14
+                }
+            ]
+        }
+    ]
+}
