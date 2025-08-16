@@ -15,32 +15,38 @@
                 {
                     "text":"Manhaj menurut bahasa artinya jalan yang jelas dan tenang. Allah Ta'la berfirman,",
                     "footnote":"",
-                    "page":13
+                    "page":13,
+                    "type":""
                 },
                 {
                     "text":" لِكُلٍّ جَعَلْنَا مِنْكُمْ شِرْعَةً وَّمِنْهَاجًا ۗ",
                     "footnote":"",
-                    "page":13
+                    "page":13,
+                    "type":"dalil"
                 },
                 {
                     "text":"\"...Untuk setiap umat diantara kamu, kami berikan aturan dan jalan yang terang...\" (QS. Al-Maa-idah: 48)",
                     "footnote":"",
-                    "page":13
+                    "page":13,
+                    "type":"dalil"
                 },
                 {
                     "text":"Shahabat 'Abdullah bin 'Abbas _radiallahu anhuma_ menafsirkan, \"Maksudnya, jalan dan syari'at.\"",
                     "footnote":"Tafsir Ibni Katsir (III/129) _tahqiq_ Sami bin Muhammad as-Salamah, cet. IV Daar Tahybah, th. 1428 H.",
-                    "page":13
+                    "page":13,
+                    "type":""
                 },
                 {
                     "text":"Sedangkan menurut istilah, manhaj ialah kaidah-kaidah dan ketentuan-ketentuan yang digunakan bagi setiap pembelajaran ilmiyyah, seperti kaidah-kaidah bahasa Arab, ushul 'Aqidah, ushul fiqih, dan ushul tafsir dimana dengan ilmu-ilmu ini pembelajaran dalam Islam beserta pokok-pokoknya menjadi teratur dan benar.",
                     "footnote":"Lihat _al-Mukhtasharul Hatsiits fii Bayaani Ushuuli Manhajis Salaf Ash-haabil Hadiitgs (hlm. 15)",
-                    "page":13
+                    "page":13,
+                    "type":""
                 },
                 {
                     "text":"**Manhaj** artinya jalan atau metode. Dan manhaj yang benar adalah jalan hidup yang lurus dan terang dalam beragama menurut pemahaman para Shahabat. Syaikh DR. Shalih bin Fauzan _hafidzahullah_ menjelaskan perbedaan antara 'aqidah dan manhaj, beliau berkata, \"_Manhaj_ lebih umum daripada _'aqidah_, Manhaj diterapkan dalam 'aqidah, suluk, akhlak, muamalah dan dalam semua kehidupan seorang Muslim. Setiap langkah yang dilakukan seorang Muslim dikatakan manhaj. Adapun yang dimaksud dengan 'aqidah adalah pokok iman, makna dua kalimat syahadat, dan konsekuensinya. Inilah 'aqidah.\"",
                     "footnote":"_Al-Ajwibah al-Mufidah 'an As-ilati Manaahijl jadiidah_ (hlm. 123) disusun oleh Jamal bin Furaihan al-Haritsi, cet. III Daarun Manhaj, th. 1424 H.",
-                    "page":14
+                    "page":14,
+                    "type":""
                 }
             ]
         },
@@ -51,23 +57,76 @@
                 {
                     "text":"Salaf berasal dari kata : سلف - يسلف - سلفًا (_Salafa-yaslufu-salafan_), artinya adalah: telah lalu. Kalimat yang berbunyi: القوم السلف (_al-qaum as-sullaaf_), artinya kaum yang terdahulu, Sedangkan kalimat: سَلَفُ الرَّ جُلِ (_salafur rajuli_) artinya: Bapak-bapak mereka yang terdahulu. Bentuk jamaknya adalah أسلاف (_aslaaf_) dan سلاف (_sullaaf_).",
                     "footnote":"",
-                    "page":14
+                    "page":14,
+                    "type":""
                 },
                 {
                     "text":"Diantaranya juga lafazh: السلفة (_as-Sulfah_), yang artinya makanan ringan yang dimakan sebelum sarapan.التسليف (_at-Tasliif_), artinya: pendahuluan, sedang السالف (_as-saalif_) dan السليف (_as-saliif_) artinya: orang yang terdahulu. Dan kata _sulaafah_, dari: segala sesuatu yang engkau peras ialah perasan awalnya.",
                     "footnote":"_Ash-Shihaah_ (IV/1377) karya Imam al-Jauhari _rahimahullah_. Lihat _Usus Manhaj Salaf fii Da'wati ilallah_ (hml. 21) karya Fawas bin Hulail bin Rabah as-Suhaimi.",
-                    "page":14
+                    "page":14,
+                    "type":""
                 },
                 {
                     "text":"Kata salaf juga bermakna: seorang yang telah mendahului (terdahulu) dalam ilmu, iman, keutamaan dan kebaikan. Ibnu manzhur _rahimahullah_ mengatakan, \"Salaf juga berarti orang yang mendahului Anda, baik dari bapak maupun orang-orang yang terdekat (kerabat) yang lebih tua umurnya dan lebih utama. Karena itu generasi pertama dari umat ini dari kalangan para Tabi'in disebut sebagai as-Salafush Shalih.\"",
                     "footnote":"_Lisaanul_ 'Arab (VI/331)",
-                    "page":14
+                    "page":14,
+                    "type":""
                 },
                 {
-                    "text":"Masuk juga dalam pengertian secara bahasa, yaitu sabda Rasulullah _Shallallahu Alaihi Wassalaam_ kepada anaknya, Fathimah, _Radiallahu Anha_, فَإِنَّهُ نِعْمَ السَّلَفُ أَنَا لَكِ \"Sesungguhnya sebaik-baik Salaf (pendahulu) bagimu adalah aku.\"",
+                    "text":"Masuk juga dalam pengertian secara bahasa, yaitu sabda Rasulullah _Shallallahu Alaihi Wassalaam_ kepada anaknya, Fathimah,",
+                    "footnote":"",
+                    "page":15,
+                    "type":""
+                },
+                {
+                    "text":"فَإِنَّهُ نِعْمَ السَّلَفُ أَنَا لَكِ \"Sesungguhnya sebaik-baik Salaf (pendahulu) bagimu adalah aku.\"",
                     "footnote":"**Shahih**: HR. Muslim (No.2450 (98)).",
-                    "page":15
+                    "page":15,
+                    "type":"dalil"
                 }
+            ]
+        },
+        {
+            "chapter_flag":"C",
+            "chapter":"Definisi Salaf Menurut Istilah",
+            "data" :[
+                {
+                    "text":"Adapun menurut istilah, Salaf adalah sifat yang khusus dimuliakan kepada para Shahabat. Ketika disebutkan _Salaf_ maka yang dimaksudkan pertama kali adalah para _Shahabat_. Adapun selain mereka ikut serta dalam makna Salaf ini, yaitu orang-orang yang mengikuti meraka. Artinya bila mereka mengikuti para Sahahabat maka disebut Salafiyyin, yaitu orang-orang yang mengikuti Salafush Shalih. Allah تبارك وتعالى berfirman,",
+                    "footnote":"",
+                    "page":15,
+                    "type":""
+                },
+                {
+                    "text":"Quran Surat At-Taubah ayat 100 berisi وَالسّٰبِقُوْنَ الْاَوَّلُوْنَ مِنَ الْمُهٰجِرِيْنَ وَالْاَنْصَارِ وَالَّذِيْنَ اتَّبَعُوْهُمْ بِاِحْسَانٍۙ رَّضِيَ اللّٰهُ عَنْهُمْ وَرَضُوْا عَنْهُ وَاَعَدَّ لَهُمْ جَنّٰتٍ تَجْرِيْ تَحْتَهَا الْاَنْهٰرُ خٰلِدِيْنَ فِيْهَآ اَبَدًا ۗذٰلِكَ الْفَوْزُ الْعَظِيْمُ",
+                    "footnote":"",
+                    "page":15,
+                    "type":"dalil"
+                },
+                {
+                    "text":"Terjemah Quran Surat At-Taubah ayat 100 berisi _\"Orang-orang yang terdahulu lagi yang pertama-tama (masuk islam) dari golongan Muhajirin dan Anshar dan orang-orang yang mengikuti mereka dengan baik, Allah ridha kepada mereka dan mereka pun ridha kepada Allah, dan Allah menyediakan bagi mereka Surga-Surga yang mengalir sungai-sungai di bawahnya, mereka kekal didalamnya selama-lamanya. Itulah kemenangan yang agung.\"_",
+                    "footnote":"",
+                    "page":15,
+                    "type":""
+                },
+                {
+                    "text":"Dalam ayat ini Allah Ta'ala menyebutkan generasi pertama umat ini adalah para Shahabat رضي الله عنهم أجمعين dari kalangan Muhajirin dan Anshar. Mereka adalah orang-orang yang diridhai Allah, dan mereka dijamin masuk Surga. Dan orang-orang setelah mereka, yang mengikut mereka dengan baik dalam 'aqidah, manhaj, dan lainya, maka mereka pun akan mendapatkan ridha Allah dan akan masuk Surga. Allah سُبْحَانَهُ وَ تَعَالَى berfirman:",
+                    "footnote":"",
+                    "page":16,
+                    "type":""
+                }, {
+                    "text":"Quran Surat Al-Fath ayat 29 berisi ...مُحَمَّدٌ رَّسُوْلُ اللّٰهِ ۗوَالَّذِيْنَ مَعَهٗٓ اَشِدَّاۤءُ عَلَى الْكُفَّارِ رُحَمَاۤءُ بَيْنَهُمْ",
+                    "footnote":"",
+                    "page":16,
+                    "type":"dalil"
+                },
+                {
+                    "text":"Terjemah Quran Surat Al-Fath ayat 100 berisi _\"Muhammad itu adalah utusan Allah, dan orang-orang yang bersama dia adalah keras terhadap orang-orang kafir, tetapi berkasih sayang sesama meraka...\"_",
+                    "footnote":"",
+                    "page":16,
+                    "type":""
+                }
+
+
             ]
         }
     ]
