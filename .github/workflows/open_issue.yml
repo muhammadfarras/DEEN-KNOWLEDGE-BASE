@@ -1,0 +1,38 @@
+name: Notify Discord on Issue Open
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  pull-requests: read
+  id-token: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord Notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          ACTOR="${{ github.actor }}"
+          ISSUE_TITLE="${{ github.event.issue.title }}"
+          ISSUE_URL="${{ github.event.issue.html_url }}"
+          ISSUE_PIC="${{ github.event.issue.assignee.name }}"
+          ISSUE_PIC_ID="${{ github.event.issue.assignee.id }}"
+          ISSUE_PIC_EMAIL="${{ github.event.issue.assignee.email }}"
+          ISSUE_PIC_LOGIN="${{ github.event.issue.assignee.login }}"
+          ISSUE_PIC_LINK="${{ github.event.issue.assignee.url }}"
+
+          ESCAPED_ISSUE_TITLE=$(echo "$ISSUE_TITLE" | sed 's/"/\\"/g')
+
+          echo "{\"content\": \"## :warning::warning::warning: Attention - An Issue Has Been Opened :warning::warning::warning: \n\n:pushpin: ${ESCAPED_ISSUE_TITLE}\n\nMore details are available at [this link 🔗 ](${ISSUE_URL})\n
+          For those listed bellow, please pay extra attention and visit the link;\n[${ISSUE_PIC_LOGIN}](${ISSUE_PIC_LINK})\n👍👍👍Terimakasih👍👍👍\"}" > payload.json
+          
+          cat payload.json
+
+          curl -X POST "$DISCORD_WEBHOOK" \
+               -H "Content-Type: application/json" \
+               -d @payload.json
