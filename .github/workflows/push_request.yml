@@ -23,8 +23,9 @@ jobs:
           PUSH_TITLE="${{ github.event.commits.message }}"
 
           ESCAPED_PUSH_TITLE=$(echo "$PUSH_TITLE" | sed 's/"/\\"/g')
+          PUSH_PIC_LINK="${{ github.event.commits.url }}"
 
-          echo "{\"content\": \"✅ ## Attention \n\nPush to the repo \`main\`has been made by \`${ACTOR}\`.\n\n:envelope:Message Commits : ${ESCAPED_PUSH_TITLE}\"}" > payload.json
+          echo "{\"content\": \"## Attention \n\nPush to the repo \`main\`has been made by \`${ACTOR}\`.\n\n:envelope:Push Message : ${ESCAPED_PUSH_TITLE}\n\n:link:Push Link: ${PUSH_PIC_LINK}\"}" > payload.json
 
           cat payload.json
 
