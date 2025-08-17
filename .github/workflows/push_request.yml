@@ -20,8 +20,8 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           ACTOR="${{ github.event.pusher.name }}"
-          MY_DATA = "${{ github.event }}"
-          TARGET = "${{ github.event.repository }}"
+          MY_DATA="${{ github.event }}"
+          TARGET="${{ github.event.repository }}"
           PUSH_TITLE="${{ github.event.commits.message }}"
 
           ESCAPED_PUSH_TITLE=$(echo "$PUSH_TITLE" | sed 's/"/\\"/g')
