@@ -20,11 +20,11 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           ACTOR="${{ github.event.pusher.name }}"
-          PR_TITLE="${{ github.event.commits.message }}"
+          PUSH_TITLE="${{ github.event.commits.message }}"
 
-          ESCAPED_PR_TITLE=$(echo "$PR_TITLE" | sed 's/"/\\"/g')
+          ESCAPED_PUSH_TITLE=$(echo "$PUSH_TITLE" | sed 's/"/\\"/g')
 
-          echo "{\"content\": \"✅ {## Attention \n\nPush to the repo \`main\`has been closed by \`${ACTOR}\`.\n\"}" > payload.json
+          echo "{\"content\": \"✅ ## Attention \n\nPush to the repo \`main\`has been made by \`${ACTOR}\`.\n\n:envelope:Message Commits : ${ESCAPED_PUSH_TITLE}\"}" > payload.json
 
           cat payload.json
 
