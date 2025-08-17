@@ -1,8 +1,7 @@
 name: Notify Discord on Merge to Integration
 
 on:
-  pull_request_target:
-    types: [closed]
+  push:
     branches:
       - main
 
@@ -13,7 +12,6 @@ permissions:
 
 jobs:
   notify:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -21,13 +19,12 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          ACTOR="${{ github.actor }}"
-          PR_TITLE="${{ github.event.pull_request.title }}"
-          PR_URL="${{ github.event.pull_request.html_url }}"
+          ACTOR="${{ github.event.pusher.name }}"
+          PR_TITLE="${{ github.event.commits.message }}"
 
           ESCAPED_PR_TITLE=$(echo "$PR_TITLE" | sed 's/"/\\"/g')
 
-          echo "{\"content\": \"✅ Pull Request ke \`integration\` telah di-merge oleh \`${ACTOR}\`.\n📌 Judul: \\\"${ESCAPED_PR_TITLE}\\\"\n🔗 ${PR_URL}\"}" > payload.json
+          echo "{\"content\": \"✅ {## Attention \n\nPush to the repo \`main\`has been closed by \`${ACTOR}\`.\n\"}" > payload.json
 
           cat payload.json
 
