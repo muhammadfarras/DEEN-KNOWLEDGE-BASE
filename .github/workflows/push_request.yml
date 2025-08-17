@@ -20,18 +20,18 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           ACTOR="${{ github.event.pusher.name }}"
-          MY_DATA="${{ toJSON(github.event) }}"
-          TARGET="${{ github.event.repository }}"
-          PUSH_TITLE="${{ github.event.commits.message }}"
+          # MY_DATA="${{ toJSON(github.event) }}"
+          TARGET="${{ github.event.ref }}"
+          PUSH_TITLE="${{ github.event.head_commit.message }}"
 
           ESCAPED_PUSH_TITLE=$(echo "$PUSH_TITLE" | sed 's/"/\\"/g')
-          PUSH_PIC_LINK="${{ github.event.commits.url }}"
+          PUSH_PIC_LINK="${{ github.event.head_commit.url }}"
 
-          echo ${MY_DATA} > data.txt
+          # echo ${MY_DATA} > data.txt
 
           echo "{\"content\": \"## Attention \n\nPush to the repo \`${TARGET}\`has been made by \`${ACTOR}\`.\n\n:envelope: Push Message : ${ESCAPED_PUSH_TITLE}\n\n:link: Push Link: ${PUSH_PIC_LINK}\"}" > payload.json
 
-          cat data.txt
+          # cat data.txt
           cat payload.json
 
           curl -X POST "$DISCORD_WEBHOOK" \
